@@ -1,4 +1,6 @@
 # Rx.Network
+[![Release](https://jitpack.io/v/io.andref/Rx.Network.svg)](https://jitpack.io/#io.andref/Rx.Network)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 Listen for Android's `CONNECTIVITY_CHANGE` broadcasts.
 
@@ -66,8 +68,6 @@ Here's the big daddy. This observable will tell you the "fine-grained" state of 
 ```
 
 ## Binaries
-
-[![Release](https://jitpack.io/v/io.andref/Rx.Network.svg)](https://jitpack.io/#io.andref/Rx.Network)
 
 Add the JitPack repository to your root build.gradle at the end of repositories:
 

@@ -24,7 +24,7 @@ Use this observable when all you're interested in is knowing whether the network
         .subscribe(new Action1<Boolean>()
         {
             @Override
-            public void call(Boolean isConnected)
+            public void call(Boolean connected)
             {
                 // [...]
             }
@@ -84,12 +84,14 @@ And then add this library to your project:
 
 ```groovy
    dependencies {
-        compile 'io.andref:Rx.Network:1.0.0'
+        compile 'io.andref:Rx.Network:1.0.1'
    }
 ```
 
 
 ## License
+
+Copyright 2016 Michael De Soto
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

@@ -27,9 +27,7 @@ public class RxNetwork
      */
     public static Observable<Boolean> connectivityChanges(final Context context, final ConnectivityManager connectivityManager)
     {
-        final IntentFilter intentFilter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-
-        return ContentObservable.fromBroadcast(context, intentFilter)
+        return ContentObservable.fromBroadcast(context, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION))
                 .map(new Func1<Intent, Boolean>()
                 {
                     @Override
@@ -51,9 +49,7 @@ public class RxNetwork
      */
     public static Observable<NetworkInfo.State> stateChanges(final Context context, final ConnectivityManager connectivityManager)
     {
-        final IntentFilter intentFilter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-
-        return ContentObservable.fromBroadcast(context, intentFilter)
+        return ContentObservable.fromBroadcast(context, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION))
                 .map(new Func1<Intent, NetworkInfo.State>()
                 {
                     @Override
@@ -80,9 +76,7 @@ public class RxNetwork
      */
     public static Observable<NetworkInfo.DetailedState> detailedStateChanges(final Context context, final ConnectivityManager connectivityManager)
     {
-        final IntentFilter intentFilter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-
-        return ContentObservable.fromBroadcast(context, intentFilter)
+        return ContentObservable.fromBroadcast(context, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION))
                 .map(new Func1<Intent, NetworkInfo.DetailedState>()
                 {
                     @Override

@@ -8,6 +8,11 @@
     <string name="no">No</string>
     <string name="yes">Yes</string>
 
+    <string name="you_dont_have_a_web_browser">You don\'t have a web browser for some reason</string>
+
+    <string name="project_url">https://github.com/andrefio/Rx.Network</string>
+    <string name="view_documentation">View documentation</string>
+
     <string name="authenticating">Authenticating</string>
     <string name="blocked">Blocked</string>
     <string name="captive_portal_check">Captive Portal Check</string>
@@ -22,4 +27,5 @@
     <string name="suspended">Suspended</string>
     <string name="unknown">Unknown</string>
     <string name="verifying_poor_link">Verifying Poor Link</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

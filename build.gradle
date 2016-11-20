@@ -15,7 +15,8 @@ ext {
             rxAndroid: "1.2.1",
             rxBinding: "0.4.0",
             rxJava: "1.1.6",
-            support: "25.0.0"
+            rxWidgets: "ef22133",
+            support: "25.0.1"
     ]
 }
 

@@ -35,6 +35,8 @@ dependencies {
     compile "io.reactivex:rxandroid:${lib.rxAndroid}"
     compile "io.reactivex:rxjava:${lib.rxJava}"
 
+    compile "io.andref:Rx.Widgets:${lib.rxWidgets}"
+
     compile "com.jakewharton.rxbinding:rxbinding:${lib.rxBinding}"
 
     androidTestCompile("com.android.support.test.espresso:espresso-core:${lib.espresso}", {
